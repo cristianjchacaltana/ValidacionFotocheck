@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "338752017640",
+    "firebase_url": "https://validacionfotochecks.firebaseio.com",
+    "project_id": "validacionfotochecks",
+    "storage_bucket": "validacionfotochecks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338752017640:android:33d77c45a4f1da5d",
+        "android_client_info": {
+          "package_name": "chacaltana.developer.validacionfotochecks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338752017640-5s9c1pcjfqnmj5fle0lmq2jegi66u27c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "chacaltana.developer.validacionfotochecks",
+            "certificate_hash": "cf2346d72b31b7276f250f68e80662e3c3dd2a7a"
+          }
+        },
+        {
+          "client_id": "338752017640-vd68tsidc05mdb95p892cete5hqtnl43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwKieGVqlQqWKjymQgAzERNUOxsARGfo8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338752017640-vd68tsidc05mdb95p892cete5hqtnl43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

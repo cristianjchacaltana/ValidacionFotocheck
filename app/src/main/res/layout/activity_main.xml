@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativelayout_main_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/primaryColor">
+
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_recognize"
+        android:paddingLeft="@dimen/material_design_margin"
+        android:paddingRight="@dimen/material_design_margin"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_main"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:padding="@dimen/material_design_margin"
+            android:src="@drawable/falso"/>
+
+        <TextView
+            android:id="@+id/text_validacion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/image_main"
+            android:textSize="18sp"
+            android:textColor="@color/primaryTextColor"/>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/button_recognize"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_recognize"
+        android:textAppearance="@style/Button"
+        android:textSize="18sp"
+        android:background="@drawable/shape_rectangle"
+        android:backgroundTint="@color/paletteOneColor"/>
+
+
+</RelativeLayout>
